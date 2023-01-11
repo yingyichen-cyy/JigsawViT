@@ -18,7 +18,9 @@ If our project is helpful for your research, please consider citing :
   author={Chen, Yingyi and Shen, Xi and Liu, Yahui and Tao, Qinghua and Suykens, Johan A. K.},
   title={Jigsaw-ViT: Learning Jigsaw Puzzles in Vision Transformer},
   journal={Pattern Recognition Letters},
-  year={2022},
+  volume = {166},
+  pages = {53-60},
+  year = {2023},
   publisher={Elsevier}
 }
 ```
