@@ -308,8 +308,8 @@ def main_worker(gpu, ngpus_per_node, args) :
                 # Map model to be loaded to specified single gpu.
                 loc = 'cuda:{}'.format(args.gpu)
                 checkpoint = torch.load(args.resumePth, map_location=loc)
-            # net.load_state_dict(checkpoint['net'])
-            utils.load_my_state_dict(net, checkpoint)
+            net.load_state_dict(checkpoint['net'])
+            # utils.load_my_state_dict(net, checkpoint)
             print("=> loaded checkpoint '{}'".format(args.resumePth))
         else :
             print("=> no checkpoint found at '{}'".format(args.resumePth))
