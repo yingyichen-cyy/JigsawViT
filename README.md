@@ -322,7 +322,7 @@ Note that for square attack, which is a black-box attack, we write it in white_a
 Commands can be found in [/adversarial-examples/bashes/run_square_attack.sh](https://github.com/yingyichen-cyy/JigsawViT/blob/master/adversarial-examples/bashes/run_square_attack.sh).
 
 ### 5.2 In White-box Settings
-Please go to [/adversarial-examples/bashes/run_white.sh](https://github.com/yingyichen-cyy/JigsawViT/blob/master/adversarial-examples/bashes/run_white.sh) for black-box attacks. Here is one example:
+Please go to [/adversarial-examples/bashes/run_white.sh](https://github.com/yingyichen-cyy/JigsawViT/blob/master/adversarial-examples/bashes/run_white.sh) for white-box attacks. Here is one example:
 ``` Bash
 # please change --data-path and --resumePth accordingly.
 python3 white_attack.py --attack-type FGSM --eps 0.125 --data-path ./data/imagenet/ --resumePth ./pretrained/imagenet-deit_small_patch16_224-org-acc78.85.pth --gpu 0
