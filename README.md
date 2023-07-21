@@ -3,7 +3,7 @@ PyTorch implementation of **Jigsaw-ViT**, accepted by *Pattern Recognition Lette
 
 **Jigsaw-ViT: Learning Jigsaw Puzzles in Vision Transformer**
 
-by *[Yingyi Chen](https://github.com/yingyichen-cyy), [Xi Shen](https://xishen0220.github.io/), [Yahui Liu](https://yhlleo.github.io/), [Qinghua Tao](https://www.esat.kuleuven.be/stadius/person.php?id=2167), [Johan A.K. Suykens](https://www.esat.kuleuven.be/sista/members/suykens.html)*
+by *[Yingyi Chen](https://yingyichen-cyy.github.io/), [Xi Shen](https://xishen0220.github.io/), [Yahui Liu](https://yhlleo.github.io/), [Qinghua Tao](https://www.esat.kuleuven.be/stadius/person.php?id=2167), [Johan A.K. Suykens](https://www.esat.kuleuven.be/sista/members/suykens.html)*
 
 
 [[arXiv](https://arxiv.org/abs/2207.11971)]
