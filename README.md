@@ -1,5 +1,5 @@
 # Jigsaw-ViT
-PyTorch implementation of **Jigsaw-ViT**, accepted by *Pattern Recognition Letters (2022)*:
+PyTorch implementation of **Jigsaw-ViT**, accepted by *Pattern Recognition Letters (2023)*:
 
 **Jigsaw-ViT: Learning Jigsaw Puzzles in Vision Transformer**
 
