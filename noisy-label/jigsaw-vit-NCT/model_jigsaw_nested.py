@@ -133,14 +133,14 @@ class MaskedAutoencoderViT(nn.Module):
         
         # sort noise for each sample
         ids_shuffle = torch.argsort(noise, dim=1)  # ascend: small is keep, large is remove
-        target = einops.repeat(self.target, 'L -> N L', N=N) 
-        target = target.to(x.device)
+        # target = einops.repeat(self.target, 'L -> N L', N=N) 
+        # target = target.to(x.device)
         
         # keep the first subset
         ids_keep = ids_shuffle[:, :len_keep] # N, len_keep
         x_masked = torch.gather(x, dim=1, index=ids_keep.unsqueeze(-1).repeat(1, 1, D))
-        target_masked = torch.gather(target, dim=1, index=ids_keep)
-        
+        target_masked = ids_keep
+        # target_masked = torch.gather(target, dim=1, index=ids_keep)
         
         return x_masked, target_masked
 
